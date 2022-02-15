@@ -1,3 +1,10 @@
+# learn-reagent
+Learn Reagent course by Jacek Schae: https://www.jacekschae.com/view/courses/learn-reagent-pro
+
+The whole repo is cloned from https://github.com/jacekschae/learn-reagent-course-files
+and then modified as working on the examples.
+
+
 ![alt learn-reagent-logo](https://res.cloudinary.com/schae/image/upload/f_auto,q_auto/v1523483980/giggin/learn-cljs-reagent.png)
 
 # [LearnReagent.com](https://www.learnreagent.com)
