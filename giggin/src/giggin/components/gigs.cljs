@@ -10,7 +10,10 @@
        [:img.gig__artwork {:src img :alt title}]
        [:div.gig__body
         [:div.gig__title
-         [:div.btn.btn--primary.float--right.tooltip {:data-tooltip "add to order"}
+         [:div.btn.btn--primary.float--right.tooltip
+          {:data-tooltip "add to order"
+           ;; notice that on-click must be a function, not simply an expression
+           :on-click #(swap! state/orders update id inc)}
           [:i.icon.icon--plus]] title]
         [:p.gig__price price]
         [:p.gig__desc desc]]])]])
